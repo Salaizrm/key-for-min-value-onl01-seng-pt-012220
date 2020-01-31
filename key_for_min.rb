@@ -7,11 +7,10 @@ def key_for_min_value(name_hash)
   
 name_hash.each do |name, number|
   if lowest_number == 0 || number < lowest_number
-    lowest number = number
+    lowest_number = number
     lowest_name = name
   end
 end
 lowest_name
 
 end
-
